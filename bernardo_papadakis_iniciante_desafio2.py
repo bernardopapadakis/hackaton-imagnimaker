@@ -103,7 +103,7 @@ while True:
             # Se os pontos do jogador for menor do que os pontos do computador:
             elif pj < pc:
                 # Placar
-                print(f'{nome} \033[1:31m{pj}\033[m X \033[1:34m{pc}r\033[m Computado')
+                print(f'{nome} \033[1:31m{pj}\033[m X \033[1:34m{pc}\033[m Computado')
                 # Mensagem dizendo ao jogador que ele perdeu
                 print('\033[1:31mVOCÊ PERDEU!\033[m')
             # Se os dois empatarem
