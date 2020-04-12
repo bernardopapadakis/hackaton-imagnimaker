@@ -101,7 +101,7 @@ while True:
                 # Mensagem dizendo ao jogador que ele venceu
                 print('\033[1:34mVOCÊ GANHOU!\033[m')
             # Se os pontos do jogador for menor do que os pontos do computador:
-            elif pj > pc:
+            elif pj < pc:
                 # Placar
                 print(f'{nome} \033[1:31m{pj}\033[m X \033[1:34m{pc}r\033[m Computado')
                 # Mensagem dizendo ao jogador que ele perdeu
