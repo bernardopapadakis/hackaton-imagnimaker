@@ -20,11 +20,11 @@ nome = str(input('\033[mDigite o seu nome: ')).capitalize()
 
 # Inicia o loop
 while True:
-    # See a variável das rodadas for diferente de 5
+    # Se a variável das rodadas for diferente de 5
     if r != 5:
         print('-' * 40)
         # Entrada da jogada do jogador
-        j = str(input('\nEscolha sua jogada [PEDRA/PAPEL/TESOURA]\nSua resposta: ')).lower()
+        j = str(input('Escolha sua jogada [PEDRA/PAPEL/TESOURA]\nSua resposta: ')).lower()
         # Jogada do computador
         c = choice(['pedra', 'papel', 'tesoura'])
         # Se jogador ganhar
